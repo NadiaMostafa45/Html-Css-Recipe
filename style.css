@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+body
+{
+    background-color: wheat;
+}
+.hero
+{
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 28%;
+    height: auto;
+}
+.container
+{
+   float: none;
+    margin-top: 390px;
+    margin-left: -630px;
+    
+}
+.im
+{
+    width: 650px;
+    height: 350px;
+   
+    margin-left: 25px;
+    background-size: cover;
+    border-radius: 50px;
+    margin-top: 25px;
+  
+}
+h1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.para
+{
+    font-weight: 1;
+    color: rgb(36, 37, 37);
+    
+}
+.pree
+{
+    background-color: rgb(252, 239, 250);
+    margin-right: 60px;
+    font-weight: 1;
+    color: rgb(36, 37, 37);
+    
+    
+}
+.pres{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 100;
+    color: rgb(200, 23, 235);
+    font:bold;
+    font-size:18px;
+}
+.super
+{
+    font-size: 18px;
+    color: black;
+    display: inline;
+
+}
+.sosuper
+{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.h{
+    color: rgb(162, 50, 50);
+}
+.goo
+{
+    margin-left: 30px;
+    margin-bottom: 10px;
+   
+}
+.b
+{
+    background-image: linear-gradient(to right, #8d8989, #aca9a9); /* خط أسود أفقي */
+    height: 1px; /* ضبط سمك الخط */
+    margin-right: 30px;
+    margin-bottom: 20px;
+    
+}
+ol {
+    list-style-type: none;
+    counter-reset: item;
+  
+  }
+  
+  ol li {
+    display: block;
+  }
+  
+  ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    color:rgb(105, 3, 3); /* تغيير لون الأرقام إلى الأزرق */
+   
+  }
+ol li{
+    margin-bottom: 15px;
+   
+}
+.go{
+    font-size: 18px;
+    color: black;
+    display: inline;
+    font: bold;
+    
+}
+
+  .last
+  {
+    margin-bottom: 20px;
+  }
+.na 
+{
+    display: inline;
+    color:rgb(105, 3, 3); 
+    font-size: 17px;
+}
+.pro
+{
+    font-size: 15.3px;
+}
+
+
+
